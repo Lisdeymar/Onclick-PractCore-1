@@ -1,0 +1,80 @@
+body{
+    font-family: 'Balsamiq Sans';
+}
+.contenedor {
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header {
+    width: 800px;
+    height: 80px;
+    background-color: rgb(189, 187, 187);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.login{
+    height: 30px;
+    width: 80px;
+    background-color: rgb(9, 58, 165);
+    color: white;
+    font-weight: bold;
+    border: 2px solid black;
+}
+
+
+.cuerpogeneral{
+    width: 800px;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.caja1, .caja2{
+    width: 420px;
+    height: 200px;
+    border: 3px solid black;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px;
+}
+
+.caja3{
+    width: 200px;
+    height: 150px;
+    border: 3px solid black;
+    margin: 10px;
+    padding: 15px;
+}
+
+.box1{
+    flex: 1;
+}
+
+.definicion{
+    flex: 2;
+}
+.like{
+    background-color: rgba(245, 248, 73, 0.973);
+    font-weight: bold;
+    padding: 5px 10px;
+    border: 2px solid black;
+}
+
+.box1 > h1{
+    flex: 2;
+}
+.add{
+    background-color: rgba(50, 161, 28, 0.973);
+    font-weight: bold;
+    padding: 5px 15px;
+    flex: 1;
+    margin-left: 30px;
+    border: 3px solid black;
+}

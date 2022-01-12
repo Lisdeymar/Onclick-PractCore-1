@@ -4,14 +4,52 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Ejercio Media Queries</title>
+        <title>Dojonary</title>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Moon+Dance&display=swap" rel="stylesheet">
         <link href="CSS/styles.css" rel="stylesheet" />
     </head>
     <body>
-        
-
+        <div class="contenedor">
+            <div class="header">
+                <h1 class="profile"> Dojonary</h1>
+                <input type="text" name="search" id="search" placeholder="Search" />
+                <div class="logi">
+                    <button class="login" onclick="cambiaTexto(this)">
+                        Login
+                    </button>
+                </div>
+            </div>
+            <div class="cuerpogeneral">
+                <div class="caja1">
+                    <div class="box1">
+                        <h1>ninja</h1>
+                        <p><em>noun</em></p>
+                        <p>Plural: <em>ninjas</em></p>
+                        <button class="like" onclick="likes()">13 likes</button>
+                    </div>
+                    <p class="definicion">
+                        A practitioner skilled in the <a href="#">Japanese</a> art of <a href="#">ninjutsu</a>
+                    </p>
+                </div>
+                <div class="caja2">
+                    <div class="box1">
+                        <h1>ninja</h1>
+                        <p><em>noun</em></p>
+                        <p>Plural: <em>ninjas</em></p>
+                        <button class="like" onclick="likes()">37 likes</button>
+                    </div>
+                    <p class="definicion">
+                        A <a href="#">programmer</a> who breaks down problems with <a href="#">zen</a>-like focus
+                    </p>
+                </div>                 
+                <div class="caja3">
+                    <h3>Dojonary is defined by YOU</h3>
+                    <button class="add" onclick="remueveElemento(this)">Add Definition</button>
+                </div>
+            </div>
+        </div>
+        <script src="./JS/index.js"></script>
     </body>
 </html>
